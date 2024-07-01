@@ -2,6 +2,18 @@ import React, { useState } from 'react'
 import DropDownOption from './DropDownOption'
 import AccountForms from './AccountForms';
 
+
+const exploreMenu = [
+    { name: 'item1', path: '/' },
+    { name: 'item2', path: '/' }
+];
+const hobbiesMenu = [
+    { name: 'item1', path: '/' },
+    { name: 'item2', path: '/' },
+    { name: 'item3', path: '/' }
+];
+
+
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -69,8 +81,14 @@ const Header = () => {
 
                     {/* For Desktop */}
                     <div className='md:flex items-center justify-center gap-4 hidden'>
-                        <DropDownOption title='Explore' iconPath=".\img\png\Layer_2.png" />
-                        <DropDownOption title='Hobbies' iconPath=".\img\png\Hobbies.png" />
+                        <DropDownOption
+                            title='Explore'
+                            iconPath=".\img\png\Layer_2.png"
+                            dropdownMenu={exploreMenu} />
+                        <DropDownOption
+                            title='Hobbies'
+                            iconPath=".\img\png\Hobbies.png"
+                            dropdownMenu={hobbiesMenu} />
 
                         <div>
                             <figure>

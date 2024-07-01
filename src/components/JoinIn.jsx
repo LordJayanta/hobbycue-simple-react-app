@@ -25,14 +25,14 @@ const JoinIn = () => {
       </div>
 
       <form action="#" className='text-xs md:text-md'>
-        <input type="email" name="" className='sign-in-inputs'  placeholder='Email'/>
-        <input type="password" name="" id="" className='sign-in-inputs' placeholder='Password'/>
-        <input type="password" name="" id="" className='sign-in-inputs' placeholder='Confirm Password'/>
-        <div className='pb-3 md:text-xs text-[8px]'>
-        By continuing, you agree to our <b>Terms of Service</b> and <b>Privacy Policy</b>.
+        <input type="email" name="" className='sign-in-inputs' placeholder='Email' />
+        <input type="password" name="" id="" className='sign-in-inputs' placeholder='Password' />
+        <div className='pb-3 md:text-xs text-[8px] text-wrap'>
+          By continuing, you agree to our <b>Terms of Service</b> and <b>Privacy Policy</b>.
         </div>
+
         <div>
-          <button className='btn-primary w-full'>Agree and Continue</button>
+          <button className='btn-primary w-full' style={{ fontSize: '14px' }}>Continue</button>
         </div>
       </form>
     </div>
