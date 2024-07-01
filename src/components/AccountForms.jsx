@@ -11,7 +11,7 @@ const AccountForms = () => {
         <div>
             {/* Sign In and Join section */}
             <div className="hero-sign-join md:px-3 w-full">
-                <div className='flex gap-5 text-[20px] mb-4'>
+                <div className='flex gap-5 md:text-[20px] text-[16px] mb-4 md:justify-start justify-center'>
 
                     <div className={signIn
                         ? 'hero-sign-join-link font-bold text-[#8064A2] cursor-pointer'

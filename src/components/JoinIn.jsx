@@ -24,7 +24,7 @@ const JoinIn = () => {
         <div className='sing-in-saparetors'></div>
       </div>
 
-      <form action="#" className=''>
+      <form action="#" className='text-xs md:text-md'>
         <input type="email" name="" className='sign-in-inputs'  placeholder='Email'/>
         <input type="password" name="" id="" className='sign-in-inputs' placeholder='Password'/>
         <input type="password" name="" id="" className='sign-in-inputs' placeholder='Confirm Password'/>

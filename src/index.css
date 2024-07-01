@@ -29,7 +29,7 @@
 
 
 .btn-primary {
-    @apply text-[#8064A2] min-w-fit hover:text-white font-semibold rounded-lg text-sm px-[16px] py-[8px] text-center border border-[#8064A2] hover:bg-[#8064A2];
+    @apply text-[#8064A2] min-w-fit hover:text-white font-semibold rounded-lg md:text-sm text-xs px-[16px] py-[8px] text-center border border-[#8064A2] hover:bg-[#8064A2];
 }
 .btn-primary-fill {
     @apply hover:text-[#8064A2] text-white font-semibold rounded-lg px-[16px] py-[8px] text-center border border-[#8064A2] bg-[#8064A2] hover:bg-transparent text-sm md:text-[20px] md:leading-[30px] leading-[20px];
@@ -40,7 +40,7 @@
 
 
 .sign-in-with {
-    @apply flex items-center justify-center rounded-md border border-[#8064A2] p-3 relative hover:bg-[#8064A2] hover:text-white font-medium text-sm;
+    @apply flex items-center justify-center rounded-md border border-[#8064A2] p-3 relative hover:bg-[#8064A2] hover:text-white font-medium md:text-sm text-xs;
 }
 
 .sign-in-with .sign-in-with-logo {

@@ -24,19 +24,19 @@ const SignIn = () => {
         <div className='sing-in-saparetors'></div>
       </div>
 
-      <form action="#" className=''>
+      <form action="#" className='text-xs md:text-md'>
         <input type="email" name="" className='sign-in-inputs'  placeholder='Email'/>
         <input type="password" name="" id="" className='sign-in-inputs' placeholder='Password'/>
         <div className='flex items-center justify-between pb-3'>
           <div className='flex justify-center items-center gap-2'>
             <input type="checkbox" name="" id="sign-in-chachbox" />
-            <label htmlFor="sing-in-chachbox" className='text-sm'>Remember me</label>
+            <label htmlFor="sing-in-chachbox" className='md:text-sm text-xs'>Remember me</label>
           </div>
           <div className='flex justify-center items-center gap-2'>
             <figure>
               <img src=".\img\svg\lock_black_24dp 1.svg" alt="" />
             </figure>
-            <span className='text-sm' >Forgot password?</span>
+            <span className='md:text-sm text-xs' >Forgot password?</span>
           </div>
         </div>
         <div>
