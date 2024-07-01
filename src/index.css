@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    font-family: "Poppins", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-[#8064A2] hover:bg-[#555];
+}
+
+.main-container {
+    @apply w-[80vw] mx-auto py-4;
+}
+
+
+
+
+
+.btn-primary {
+    @apply text-[#8064A2] min-w-fit hover:text-white font-semibold rounded-lg text-sm px-[16px] py-[8px] text-center border border-[#8064A2] hover:bg-[#8064A2];
+}
+.btn-primary-fill {
+    @apply hover:text-[#8064A2] text-white font-semibold rounded-lg px-[16px] py-[8px] text-center border border-[#8064A2] bg-[#8064A2] hover:bg-transparent text-sm md:text-[20px] md:leading-[30px] leading-[20px];
+}
+
+
+
+
+
+.sign-in-with {
+    @apply flex items-center justify-center rounded-md border border-[#8064A2] p-3 relative hover:bg-[#8064A2] hover:text-white font-medium text-sm;
+}
+
+.sign-in-with .sign-in-with-logo {
+    @apply absolute left-10;
+}
+
+.sing-in-saparetors {
+    @apply h-[1px] basis-[40%] bg-[#CED4DA] flex-shrink;
+}
+
+.sign-in-inputs{
+    @apply w-full rounded-md border border-[#EBEDF0] p-3 mb-4;
+}
+
+.hero-sign-join-link:hover .hero-sign-join-line{
+    @apply w-full transition-all;
+}
+
+
+/* Footer */
+.footer-link ul{
+    @apply md:w-1/5 w-full leading-7;
+}
+.foter-link-heading{
+    @apply font-bold text-sm leading-[18px] mb-4 md:mt-0 mt-8;
+}
+
+.icon{
+    @apply bg-[#EBEDF0] rounded-full w-[24px] h-[24px] flex items-center justify-center;
+}
